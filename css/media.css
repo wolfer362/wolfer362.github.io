@@ -1,0 +1,18 @@
+@media all and (max-width: 768px){
+	.item{
+		max-height: initial;
+		max-width: initial;
+		width: 96vw;
+		height: calc(95vw  / 16 * 9);
+	}
+	.img_link{
+		margin: 5px 0;
+	}
+}
+@media all and (max-width: 768px){
+	.item{
+	opacity: 1;    
+    transform: scale(1.02) rotate(2deg);
+    z-index: 10;
+    box-shadow: 0 0 200px 40px rgba(153, 50, 204, 0.2);
+	}
